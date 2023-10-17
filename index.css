@@ -2,3 +2,9 @@
     left: 0;
     right: 0;
 }
+.bg-footer {
+    background-color: #000000;
+}
+.fs-7 {
+    font-size: x-small;
+}
