@@ -1,3 +1,6 @@
+* {
+    font-family: 'Poppins', sans-serif !important;
+}
 .position-fixed {
     left: 0;
     right: 0;
@@ -7,4 +10,25 @@
 }
 .fs-7 {
     font-size: x-small;
+}
+.accordion {
+    --bs-accordion-btn-bg: inherit !important;
+    --bs-accordion-active-bg: inherit !important;
+    /* --bs-accordion-active-color: white !important; */
+    /* --bs-accordion-btn-color: white !important; */
+    --bs-accordion-btn-focus-box-shadow: none;
+}
+.accordion-button:not(.collapsed) {
+box-shadow: none;
+/* border: none !important; */
+}
+.accordion-button {
+  border: 1px solid #4A536A !important;
+  border-radius: 20px !important;
+}
+.accordion-button::after {
+  /* color: white !important; */
+}
+.accordion-item:last-child .accordion-button {
+  border: 1px solid #455A64;
 }
